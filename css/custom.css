@@ -1,0 +1,221 @@
+
+
+@font-face {
+  font-family: sofia;
+  src: url("../fonts/SofiaSansCondensed-VariableFont_wght.ttf");
+}
+@font-face{
+  font-family: web;
+  src: url("../fonts/Web.ttf");
+}
+@font-face{
+  font-family: til;
+  src: url("../fonts/til.ttf");
+
+}
+
+@font-face{
+  font-family: star;
+  src: url("../fonts/Starlight-P1Dg.ttf");
+
+}
+
+
+.jumbotron {
+  margin: 100px 0;
+  padding: 200px;
+  text-align: center;
+}
+
+@media screen and (max-width: 390px) {
+  .jumbotron {
+    padding: 100px 20px;
+  }
+}
+  .paddingTopBottom {
+    padding: 50px 20px;
+  }
+}
+
+  .container {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Rest of your CSS code */
+
+
+
+
+    body {
+        padding: 0;
+      background-color: #f8f9fa;
+    }
+.container-fluid{
+  padding:0;
+}
+
+.container-custom {
+  padding: 0;
+}
+.btn-launch {
+
+  left: 43%;
+  position: absolute;
+align-items: center;
+  font-size: 1.5rem;
+  border-radius: 100px;
+}
+
+
+.logo{
+  font-family: til;
+  font-size: 40pt;
+  margin-left: 20px;
+}
+.nav-item{
+  font-family: web;
+  font-size: 20pt;
+  margin-top: 18px;
+}
+nav {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav a {
+  color: #000;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  width: 200px;
+  margin: 10px;
+  background-color: black;
+  font-family: web;
+  color: whitesmoke;
+}
+    .cover {
+          padding: 0;
+      background-image: url("../images/sad.jpg");
+      background-size: cover;
+      height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+        padding-top: 10rem;
+
+    }
+
+
+.cover h1 {
+
+  color: whitesmoke;
+  font-family: til;
+  font-size: 6rem;
+  margin: 0;
+}
+
+.cover p {
+  font-family: sofia;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.cover button {
+  font-family: sofia;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+}
+.cover button:hover {
+  background-color: pink;
+  color: black;
+}
+.container1{
+  width: 100%;
+   opacity: 0.9;
+   background-color: floralwhite;
+}
+  .offcanvas-body{
+
+    font-family: web;
+    font-size: ;
+  }
+.toast-header img{
+  height: 60px;
+  width: 60px;
+
+}
+.offcanvas-size-xl {
+
+
+    --bs-offcanvas-width: min(95vw, 600px) !important;
+}
+
+.offcanvas {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  margin: auto !important;
+}
+.offcanvas-title{
+  font-family: web;
+  font-size: 50pt;
+font-weight: 300;
+font-stretch: ultra-condensed;
+}
+.progress{
+  margin-left: 450px;
+}
+
+.cardImage{
+  height : 200px;
+}
+.btn-primary:hover {
+  background-color: pink;
+  color: bla;
+}
+
+.paddingTopBottom{ 
+  font-family:sofia ;
+padding:100px }
+
+#socialMedia{
+  display : flex;
+  justify-content: center;
+  align-items : center;
+}
+#socialMedia i{
+  font-size : 34pt;
+  margin : 10px;
+}
+#socialMedia i:hover{
+  color : pink
+}
+.carousel-inner img{
+  height: 800px;
+  width: 900px;
+}
